@@ -10,6 +10,19 @@
     android:layout_margin="10dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Kalkulator Bagus"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/firstNumberEditText"
         android:layout_width="match_parent"
